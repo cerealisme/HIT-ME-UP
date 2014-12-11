@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hit-Me-Up | Event-Listings</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="event-listing" class="page row">
+      <header>
+        <div class="jumbotron">Hit-Me-Up</div>
+        <a class="add-event" href="create-event.html">Add Event</a>
+        <form class="user" role="form">      
+          <button class="btn btn-default">Log out</button>
+          <button class="btn btn-default">Account Settings</button>
+        </form>
+      </header>
+
+      <div class="col-left col-md-2">
+        <p>Filter by:</p>
+        <ul class="filters">
+          <li>Event type<br>
+            <input type="checkbox" name="outdoors" id="outdoors">
+            <label for="outdoors">outdoors</label><br>
+            <input type="checkbox" name="sports" id="sports">
+            <label for="sports">sports</label><br>
+            <input type="checkbox" name="landmarks" id="landmarks">
+            <label for="landmarks">landmarks</label><br>
+            <input type="checkbox" name="performances" id="performances">
+            <label for="performances">performances</label>
+          </li>
+          <li>Location Radius<br>
+            <input type="checkbox" name="one" id="one">
+            <label for="one">1 mile</label><br>
+            <input type="checkbox" name="two" id="two">
+            <label for="two">2 miles</label><br>
+            <input type="checkbox" name="five" id="five">
+            <label for="five">5 miles</label><br>
+            <input type="checkbox" name="ten" id="ten">
+            <label for="ten">10 miles</label><br>
+            <input type="checkbox" name="fifteen" id="fifteen">
+            <label for="fifteen">15 miles</label><br>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-right col-md-8">
+        <ul class="events">
+          <li class="event fa fa-chevron-right">
+            <a href="event.html">
+              <p>Event Name</p>
+              <ul class="description fa fa-ticket">
+                <li>Description:<span></span></li>
+                <li>When:<span></span></li>
+                <li>Location:<span></span></li>
+                <li>Event Status:<span></span></li>
+              </ul>
+            </a>
+          </li>
+          <li class="event fa fa-chevron-right">
+            <a href="event.html">
+              <p>Event Name</p>
+              <ul class="description fa fa-birthday-cake">
+                <li>Description:<span></span></li>
+                <li>When:<span></span></li>
+                <li>Location:<span></span></li>
+                <li>Event Status:<span></span></li>
+              </ul>
+            </a>          
+          </li>
+          <li class="event fa fa-chevron-right">
+            <a href="event.html">
+              <p>Event Name</p>
+              <ul class="description fa fa-bicycle">
+                <li>Description:<span></span></li>
+                <li>When:<span></span></li>
+                <li>Location:<span></span></li>
+                <li>Event Status:<span></span></li>
+              </ul>
+            </a>          
+          </li>
+          <li class="event fa fa-chevron-right">
+            <a href="event.html">
+              <p>Event Name</p>
+              <ul class="description fa fa-paint-brush">
+                <li>Description:<span></span></li>
+                <li>When:<span></span></li>
+                <li>Location:<span></span></li>
+                <li>Event Status:<span></span></li>
+              </ul>
+            </a>          
+          </li>
+          <li class="event fa fa-chevron-right">
+            <a href="event.html">
+              <p>Event Name</p>
+              <ul class="description fa fa-binoculars">
+                <li>Description:<span></span></li>
+                <li>When:<span></span></li>
+                <li>Location:<span></span></li>
+                <li>Event Status:<span></span></li>
+              </ul>
+            </a>          
+          </li>
+          <li class="event fa fa-chevron-right">
+            <a href="event.html">
+              <p>Event Name</p>
+              <ul class="description fa fa-futbol-o">
+                <li>Description:<span></span></li>
+                <li>When:<span></span></li>
+                <li>Location:<span></span></li>
+                <li>Event Status:<span></span></li>
+              </ul>
+            </a>          
+          </li>        
+        </ul>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

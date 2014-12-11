@@ -1,0 +1,257 @@
+.page{
+  width:1024px;
+  margin: 1em auto ;
+}
+
+a,
+a:hover{
+  text-decoration: none;
+}
+
+
+
+.form-grouping{
+  width: 14.4%;
+  float: right;
+  text-align: right;
+}
+
+.form-grouping button:nth-child(3){
+  margin-top: .2em;
+}
+
+/******* HEADER STYLES *******/
+header .jumbotron{
+  position: relative;
+  display:inline-block;
+  width: 54%;
+  margin: .25em auto .3em auto;
+  border-radius: .25em;
+  text-align: center;
+  font-size: 3em;
+  text-decoration: none;
+  color: rgb(175, 178, 175);
+  padding: 0.5em;
+}
+
+header .add-event{
+  color: rgb(175, 178, 175);
+  font-size: 3em;
+  border-radius: .25em;
+  margin: .25em auto .3em auto;
+  background:#eee;
+  text-decoration: none;
+  padding: .5em;
+  margin-left: .25em;
+  display: inline-block;
+}
+
+header .add-event:hover{
+  color: rgba(50, 179, 50, 0.75);
+  -webkit-box-shadow: 0px 1px 17px 0px rgba(50, 179, 50, 0.75);
+  -moz-box-shadow:    0px 1px 17px 0px rgba(50, 179, 50, 0.75);
+  box-shadow:         0px 1px 17px 0px rgba(50, 179, 50, 0.75);
+}
+
+header form{
+  display: inline-block;
+  text-align: right;
+  width: 12em;
+}
+header form button:first-child{
+  margin-bottom:1em;
+}
+
+
+/******* HOME PAGE STYLES *******/
+
+#home a{
+  display:block;
+}
+
+#home input{
+    display: inline-block;  
+    width: 15%;
+    float: right;
+}
+
+#home form{
+  width:100%;
+}
+
+#home form button:first-child{
+  margin-bottom: 0;
+}
+
+#home .jumbotron{
+  position: relative;
+  width:80%;
+  margin: 1em auto .3em auto;
+  border-radius: .5em;
+  text-align: center;
+  font-size: 5em;
+  color: rgb(175, 178, 175);
+}
+
+#home a.jumbotron:hover{
+  color: rgba(50, 179, 50, 0.75);
+  -webkit-box-shadow: 0px 1px 17px 0px rgba(50, 179, 50, 0.75);
+  -moz-box-shadow:    0px 1px 17px 0px rgba(50, 179, 50, 0.75);
+  box-shadow:         0px 1px 17px 0px rgba(50, 179, 50, 0.75);
+}
+
+#home a.jumbotron:active{
+  -webkit-box-shadow: inset 0px 1px 24px -3px rgba(50, 179, 50, 0.75);
+  -moz-box-shadow:    inset 0px 1px 24px -3px rgba(50, 179, 50, 0.75);
+  box-shadow:         inset 0px 1px 24px -3px rgba(50, 179, 50, 0.75);
+}
+
+#home a.list-event{
+  background: #eee;
+  width:30%;
+  border-radius: .5em;
+  text-align: center;
+  font-size: 3em;
+  color: rgb(175,178,175);
+  position: relative;
+  margin: auto;
+}
+
+#home a.list-event:hover{
+  color: rgba(50, 179, 50, 0.75);
+  -webkit-box-shadow: 0px 1px 17px 0px rgba(50, 179, 50, 0.75);
+  -moz-box-shadow:    0px 1px 17px 0px rgba(50, 179, 50, 0.75);
+  box-shadow:         0px 1px 17px 0px rgba(50, 179, 50, 0.75);
+}
+
+#home a.list-event:active{
+  -webkit-box-shadow: inset 0px 1px 24px -3px rgba(50, 179, 50, 0.75);
+  -moz-box-shadow:    inset 0px 1px 24px -3px rgba(50, 179, 50, 0.75);
+  box-shadow:         inset 0px 1px 24px -3px rgba(50, 179, 50, 0.75);
+}
+
+/******* EVENTS LISTING PAGE STYLES *******/
+
+.filters{
+  padding-left: 2em;
+}
+
+.filters input[type="checkbox"],
+.filters label{
+  display: inline-block;
+}
+
+.filters input[type="checkbox"]{
+  margin-right: .2em;
+}
+
+.events{
+  list-style: none;
+  position: relative;
+  height: 21em;
+  overflow: auto;
+}
+
+.events .event{
+  margin-bottom: 1.5em;
+  display:block;
+}
+
+.events a{
+  color: rgb(175, 178, 175);  
+}
+
+.event.fa-chevron-right:before{
+  position: absolute;
+  right: 0em;
+  font-size: 2em;
+  padding-top: 1.4em;
+  color: rgb(175, 178, 175);
+}
+
+.event:hover.fa-chevron-right:before,
+.event:hover .fa-ticket:before,
+.event:hover .fa-bicycle:before,
+.event:hover .fa-paint-brush:before,
+.event:hover .fa-birthday-cake:before,
+.event:hover .fa-binoculars:before,
+.event:hover .fa-futbol-o:before,
+.event:hover li{
+  color: rgba(50, 179, 50, 0.75);
+
+}
+
+.events .description{
+   padding-left: 6.7em; 
+}
+
+.description.fa-ticket:before,
+.description.fa-birthday-cake:before,
+.description.fa-bicycle:before,
+.description.fa-paint-brush:before,
+.description.fa-binoculars:before,
+.description.fa-futbol-o:before{
+  position: absolute;
+  left: 1em;
+  font-size: 3.3em;
+  padding-top: 0.15em;
+}
+
+
+/******* EVENT DETAILS *******/
+
+.left-col a{
+  text-align: center;
+}
+
+.left-col img{
+  display: block;
+}
+
+
+.event-details p{
+  display: inline-block;
+}
+
+.event-details .title{
+  width: 20%;
+}
+
+.event-details{
+  list-style: none;
+}
+
+
+/******* CREATE EVENT *******/
+
+#create-event .img-upload a{
+  text-align: center;
+  display: block;
+}
+
+
+#create-event .jumbotron{
+  width:80%;
+}
+
+#create-event .form-group label,
+#create-event .form-group input{
+  display: inline-block;
+}
+
+#create-event .form-group label{
+  width: 20%;
+  margin-bottom: 2em;
+}
+
+#create-event .form-group input{
+  width: 76.6%;
+}
+
+
+
+
+
+
+
+
